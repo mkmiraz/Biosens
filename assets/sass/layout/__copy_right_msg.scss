@@ -1,0 +1,20 @@
+.copy_right_msg {
+    width: 16rem;
+    display: flex;
+    background-color: $color-1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1rem 1.3rem;
+
+    .msg_area {
+        text-align: center;
+        img {
+            height: 4rem;
+        }
+        p {
+            color: #fff;
+            font-size: .9rem;
+        }
+    }
+}

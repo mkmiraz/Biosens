@@ -1,0 +1,530 @@
+.single_product_brand {
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5rem 7%;
+    display: block;
+    left: 0;
+    top: 0;
+}
+.container_box {
+    width: 71%;
+    margin: 0 auto;
+}
+#single_product_container {
+    width: 85.5%;
+    margin: 10.2rem auto;
+    margin-bottom: 0;
+    padding: 2rem 0rem;
+    .product_gallery_with_dist {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        .image_gallery {
+            #imageBox {
+                width: 50rem;
+                height: 55rem;
+                border: 1px solid #ddd;
+                text-align: center;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .product_small_image {
+                padding: 2rem 1.5rem;
+                display: flex;
+                .img_div {
+                    width: auto;
+                    height: 6.7rem;
+                    opacity: .7;
+                    margin: 0 10px;
+                    position: relative;
+                    border: 2px solid transparent;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 1.1rem;
+                        height: 1.1rem;
+                        bottom: 85%;
+                        left: 50%;
+                        margin-left: -7px;
+                        transform: rotate(45deg);
+                        border-top: 2px solid red;
+                        border-bottom: 0px solid red;
+                        border-left: 2px solid red;
+                        border-right: 0px solid red;
+                        background: red;
+                        z-index: -1;
+                        display: none;
+                    }
+                }
+                .img_div.hovered {
+                    opacity: 1;
+                    border: 2px solid red;
+
+                    &::before {
+                        display: block;
+                    }
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                }
+            }
+        }
+        .product_dist {
+            width: 40%;
+
+            .product_title_with_qr {
+                padding: 1rem;
+                .porduct_title {
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    h2 {
+                        font-size: 3rem;
+                        color: $taxt_color;
+                    }
+                    span {
+                        font-size: 4rem;
+                        padding: 0rem 1rem;
+                        color: $taxt_color;
+                        cursor: pointer;
+                    }
+                    #QRCodeBox {
+                        position: absolute;
+                        width: auto;
+                        height: auto;
+                        border: 1px solid #ddd;
+                        background-color: white;
+                        top: 4rem;
+                        right: 15.9rem;
+                        z-index: 999;
+                        box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.1);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        padding: 2rem;
+                        display: none;
+                        opacity: 0;
+
+                        span {
+                            font-size: 16rem;
+                            padding: 0;
+                            color: $taxt_color;
+                        }
+                        p {
+                            font-size: 1.7rem;
+                            display: block;
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                    #QRCodeBox.code_show_hide {
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+                .product_dist_box {
+                    p {
+                        font-size: 2rem;
+                        width: 72%;
+                        margin-top: 1rem;
+                        opacity: .9;
+                        color: $taxt_color;
+                    }
+                }
+            }
+        }
+        .quantity {
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+            padding-left: 0; 
+            
+            p {
+                font-size: 1.8rem;
+                color: $taxt_color;
+            }
+            .icon_grp {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                margin-left: 4rem;
+                span {
+                    padding: 0.5rem 0.7rem;
+                    font-size: 2rem;
+                    border: 1px solid #ddd;
+                    width: 3.5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: $taxt_color;
+                }
+                .number_box {
+                    font-size: 1.7rem;
+                    width: 6.5rem;
+                }
+                .las {
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #333;
+                    }
+                }
+            }
+        }
+        .btn_grp {
+
+            button {
+                display: block;
+                padding: 1rem;
+                width: 33rem;
+                border: 1px solid $color-1;
+                font-size: 1.6rem;
+                border-radius: 30px;
+                background: transparent;
+                margin: 1rem 0rem;
+                cursor: pointer;
+                transition: .3s ease;
+                &:hover {
+                    background: $color-1;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .share_to {
+        display: flex;
+        padding: 1.5rem;
+        padding-left: 0;
+        border-bottom: 1px solid #ddd;
+        p {
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            color: $taxt_color;
+        }
+        .icn_grp {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-left: 2rem;
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.6rem;
+                width: 2.5rem;
+                height: 2.5rem;
+                border: 1px solid #333;
+                color: #333;
+            }
+            .la-facebook-f {
+                border: 1px solid $facebook;
+                background-color: $facebook;
+                color: #fff;
+                transition: .3s ease;
+
+                &:hover {
+                    border: 1px solid $facebook;
+                    background-color: #fff;
+                    color: $facebook;
+                }
+            }
+            .la-twitter {
+                border: 1px solid $twitter;
+                background-color: $twitter;
+                color: #fff;
+                transition: .3s ease;
+
+                &:hover {
+                    border: 1px solid $twitter;
+                    background-color: #fff;
+                    color: $twitter;
+                }
+            }
+            .la-linkedin-in {
+                border: 1px solid $linkedin;
+                background-color: $linkedin;
+                color: #fff;
+                transition: .3s ease;
+
+                &:hover {
+                    border: 1px solid $linkedin;
+                    background-color: #fff;
+                    color: $linkedin;
+                }
+            }
+            .la-pinterest-p {
+                border: 1px solid $pinterest;
+                background-color: $pinterest;
+                color: #fff;
+                transition: .3s ease;
+
+                &:hover {
+                    border: 1px solid $pinterest;
+                    background-color: #fff;
+                    color: $pinterest;
+                }
+            }
+        }
+    }
+    .model {
+        table {
+            tbody {
+                tr {
+                    td {
+                        width: 35rem;
+                        padding: 2rem;
+                        font-size: 1.6rem;
+                        padding-left: 1.5rem;
+                        color: $taxt_color;
+                    }
+                }
+            }
+        }
+    }
+    .dist_box {
+        border: 1px solid #ddd;
+        .box_head {
+            background-color: #efefef;
+            ul {
+                li {
+                    display: inline-block;
+                    font-size: 1.6rem;
+                    padding: 1rem 2rem;
+                    border-right: 1px solid #ddd;
+                    border-bottom: 1px solid #ddd;
+                    color: $taxt_color;
+                    cursor: pointer;
+                }
+                .color_changer {
+                    border-bottom: 0;
+                    background: white;
+                    border-top: 2px solid $color-1;
+                    color: $color-1;
+                    border-bottom: 1px solid #fff;
+                }
+            }
+        }
+        .box_body {
+            #content_first {
+                padding: 3rem;
+                padding-left: 2rem;
+                .features_box {
+                    .title {
+                        h2 {
+                            font-size: 2.3rem;
+                            color: $taxt_color;
+                        }
+                    }
+                    .features_list {
+                        margin-left: 1.5rem;
+                        margin-top: 1rem;
+                        li {
+                            list-style: number;
+                            font-size: 1.6rem;
+                            color: $taxt_color;
+                            padding: 0.4rem 0rem;
+                        }
+                    }
+                    .product_gell {
+                        padding: 1rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        img {
+                            height: 50.8rem;
+                        }
+                    }
+                    .dtls_table {
+                        table {
+                            width: 100%;
+                            height: auto;
+                            margin-top: 1rem;
+                            border: 1px solid #ddd;
+                            border-collapse: collapse;
+                            margin-bottom: 5rem;
+                            tbody {
+                                tr {
+                                    background-color: $table_bg_2;
+                                    .inside_tr {
+                                        width: 30rem;
+                                    }
+                                    th {
+                                        font-size: 1.7rem;
+                                        color: $taxt_color;
+                                        padding: 1rem;
+                                        border: 1px solid #ddd;
+                                        border-collapse: collapse;
+                                        text-align: start;
+                                        font-weight: 500;
+                                        width: 16rem;
+                                        background-color: $table_bg_1;
+                                    }
+                                    td {
+                                        font-size: 1.7rem;
+                                        color: $taxt_color;
+                                        padding: 1rem;
+                                        border: 1px solid #ddd;
+                                        border-collapse: collapse;
+                                    }
+                                    &:nth-child(odd){
+                                        background-color: $table_bg_1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            #content_scnd {
+                display: none;
+
+                img {
+                    height: 73rem;
+                    margin: 5rem;
+                }
+            }
+            #content_scnd.show {
+                display: block;
+            }
+        }
+    }
+    .next_prev {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 0rem;
+        border-bottom: 1px solid #ddd;
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.5rem;
+            border-radius: 20px;
+            color: $taxt_color;
+
+            a {
+                margin-left: .8rem;
+                color: $taxt_color;
+
+                &:hover {
+                    color: $color-1;
+                }
+            }
+        }
+    }
+    .related_menu {
+        padding: 2rem 0rem;
+        margin-top: 1rem;
+        .related_menu_bar {
+            .related_menu_item {
+                display: inline-block;
+                a {
+                    padding: .8rem;
+                    font-size: 1.4rem;
+                    border: 1px solid #ddd;
+                    border-radius: 20px;
+                    color: $taxt_color;
+                    margin: 0rem .5rem;
+
+                    &:hover {
+                        color: $color-1;
+                    }
+                }
+            }
+        }
+    }
+    .related_product {
+        .title {
+            h2 {
+                padding: 2rem;
+                font-size: 3rem;
+                display: block;
+                width: 100%;
+                color: $taxt_color;
+            }
+        }
+        .related_product_slider {
+            padding: 0rem 2.2rem;
+            .product_card {
+                padding: 1rem;
+                width: 27rem;
+                height: 34.2rem;
+                border-radius: 5px;
+                transition: .3s ease;
+                a {
+                    width: 100%;
+                    height: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 26rem;
+                    }
+                    h2 {
+                        padding: 1rem;
+                        text-align: center;
+                        width: 100%;
+                        border-radius: 5px;
+                        color: $taxt_color;
+                        transition: .3s ease;
+
+                        &:hover {
+                            background: #ddd;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+            .owl-nav {
+                .owl-prev {
+                    position: absolute;
+                    top: 0px;
+                    bottom: 0px;
+                    left: -1rem;
+                    margin: auto;
+                    span {
+                        font-size: 7rem;
+                        color: $taxt_color;
+                        font-weight: 200;
+                        width: 5rem;
+                        height: 5rem;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .owl-next {
+                    position: absolute;
+                    top: 0px;
+                    bottom: 0px;
+                    right: -1rem;
+                    margin: auto;
+                    span {
+                        font-size: 7rem;
+                        color: $taxt_color;
+                        font-weight: 200;
+                        width: 5rem;
+                        height: 5rem;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+            }
+        }
+    }
+}

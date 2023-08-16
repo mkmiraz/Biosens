@@ -1,0 +1,74 @@
+
+.about_box {
+    width: 85%;
+    margin: 1rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .about_left {
+        width: 55%;
+        height: auto;
+        .pera_fist {
+            width: 80%;
+            font-size: 1.4rem;
+            color: rgb(153, 148, 148);
+            line-height: 2rem;
+            padding-bottom: .8rem;
+            text-align: justify;
+            span {
+                font-weight: 900;
+                color: $color-1;
+            }
+        }
+
+        .pera_secend {
+            width: 80%;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            padding: .8rem 0;
+            color: rgb(153, 148, 148);
+            text-align: justify;
+        }
+
+        img {
+            height: 40rem;
+
+        }
+
+    }
+
+    .about_right {
+        width: 45%;
+        height: auto;
+        padding: 0rem 3rem;
+
+        .about_table>tbody>tr>td {
+            padding: .1rem 0;
+            font-size: 1.6rem;
+            border-top: 1px solid  $color-1;
+           
+
+
+
+            li {
+                list-style-type: number;
+            }
+
+            a {
+                color: $color-1;
+                font-size: 2rem;
+            }
+            
+        }
+
+        .t_title{
+            text-align: right;
+            font-weight: 900;
+            color: black;
+            font-style: italic;
+        }
+    }
+
+}

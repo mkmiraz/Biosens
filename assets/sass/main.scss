@@ -1,0 +1,18 @@
+@import './utils/_variables';
+@import './Base/_reset';
+@import './Base/_typogarphy';
+@import './Base/_customheading';
+@import './components/_buttons';
+@import './layout/_logo';
+
+@import './layout/_copy_right_msg';
+@import './layout/_navigation';
+@import './layout/_benar';
+@import'./pages/_contact';
+@import'./pages/_about';
+@import'./pages/_product';
+@import'./pages/_services';
+@import'./pages/_single_product';
+
+
+@import './themes/_responsive';

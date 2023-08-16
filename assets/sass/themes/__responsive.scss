@@ -1,0 +1,1105 @@
+@media only screen and (max-width:1440px){
+    .container_box {
+        width: 100%;
+    }
+    #single_product_container {
+        .product_gallery_with_dist {
+            .product_dist {
+                width: 65%;
+                padding-left: 3rem;
+            }
+        }
+    }
+    // home benar logo and menu Responsive Here
+
+    .logo {
+        left: 7%;
+        img {
+            height: 5rem;
+        }
+    }
+    .single_product_brand {
+        left: 0%;
+    }
+    // LOGO END
+
+    // COPY RIGHT TO THE FOOTER
+    .copy_right_msg {
+        padding: .7rem 0rem .7rem;
+
+        .msg_area {
+            img {
+                height: 3rem;
+            }
+            p {
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .navbar {
+
+        .nav_area{
+
+
+            li {
+
+                a {
+                    padding: 1.5rem 0;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+
+
+                    .nav_icon{
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+        // navigation END Here
+
+    // Customheader here
+        .custom_title {
+            padding-top: 5rem;
+            padding-bottom: 1rem;
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+        // END Customheader here
+
+    // BENAR START HERE
+
+
+
+    .benar_slider {
+
+
+        .owl-nav{
+
+            .owl-prev {
+                width: 6rem !important;
+                height: 6rem !important;
+
+            }
+
+            .owl-next {
+                width: 6rem !important;
+                height: 6rem !important;
+            }
+        }
+
+
+
+    .benar_box {
+
+        display: flex !important;
+        justify-content: right !important;
+        align-items: center !important;
+
+        .benar_img {
+            justify-content: left;
+            img {
+                width: 37rem !important;
+                height: 47rem !important;
+            }
+        }
+
+
+         .benar_text {
+            position: absolute;
+            height: 18rem !important;
+            top:35%;
+            left: 8%;
+            display: block;
+
+            h2 {
+                font-size: 4rem !important;
+            }
+
+            .benar_btn {
+                font-size: 1.4rem !important;
+
+                i {
+                    font-size: 2rem;
+                }
+            }
+         }
+
+    }
+
+}
+
+ // END home benar logo and menu Responsive Here
+
+ //  START ABOUT RESPONSIVE HERE
+.about_box {
+
+    .about_left {
+
+        .pera_fist {
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+        }
+
+        .pera_secend {
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+        }
+
+        img {
+            height: 22rem;
+
+        }
+
+    }
+
+    .about_right {
+        padding: 0rem 3rem 1rem;
+
+
+
+        .about_table>tbody>tr>td {
+            font-size: 1rem;
+
+            a {
+                font-size: 1.2rem !important;
+            }
+
+
+        }
+        h5 {
+            font-size: 1rem !important;
+        }
+
+        .t_title {
+            font-weight: 900 !important;
+        }
+    }
+}
+
+//  SERVICES SECTION RESPONSIVE HERE
+.services_box {
+        margin: 5rem auto 0;
+        gap: 3rem;
+
+        .services_items {
+            width: 30rem;
+            height: 30rem;
+
+            .item_img {
+
+                img {
+                    height: 12rem;
+                    border: 8px solid #fff;
+                    border-top: none;
+                }
+            }
+
+            .item_text {
+
+
+                h2 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1.1rem !important;
+                }
+            }
+        }
+}
+
+
+// THE PRODUCTS SECTION RESPONCIVE HERE
+
+    .blog_box {
+        width: 60%;
+        margin: 0rem auto 0 ;
+
+
+        .blog_items {
+            width: 22rem;
+            height: 20rem;
+
+            .item_date {
+                height: 2.5rem;
+
+                p {
+                    font-size: 1rem;
+
+                }
+            }
+
+            .text_item {
+
+                h3 {
+                    font-size: 1.7rem;
+                }
+
+                p {
+                    font-size: 1rem;
+
+                }
+            }
+
+            .blog_item_btn {
+                padding-top: 1rem;
+
+                .a_custom {
+                    font-size: 1.2rem;
+
+                }
+            }
+
+
+        }
+
+    }
+
+    // CONTACT SECTION RESPONSIVE HERE
+
+    .contact_box {
+                margin: 2rem auto 0;
+
+        .left_text_box {
+            gap: 1rem;
+
+        .contact_left_text {
+
+
+                p {
+                    font-size: 1.2rem;
+                    line-height: 2rem;
+                }
+            }
+
+            .contact_item {
+                padding-bottom: 2rem;
+
+                h4 {
+                    font-size: 1.2rem;
+
+                    span {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .las {
+                    font-size: 2.5rem;
+                }
+            }
+            .contact_item_icon{
+
+                a {
+                    width: 3rem;
+                    height: 3rem;
+
+
+                    .lab {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+
+        }
+
+        .right_form_box {
+            width: 45%;
+            padding: 1.5rem 2rem;
+
+
+            .form_group {
+                gap: 1rem;
+                margin-bottom: 1rem;
+                input {
+                    padding: 1rem 1.2rem;
+                    font-size: 1.4rem;
+                }
+            }
+
+            textarea {
+                margin-bottom: 1rem;
+                padding: .2rem .5rem;
+                font-size: 1.4rem;
+
+            }
+
+            button {
+                width: 12rem;
+                padding: 1.2rem 1.5rem;
+                font-size: 1.5rem;
+            }
+        }
+
+    }
+
+.info_box {
+    padding: 2rem 0rem 2rem;
+    .contact_item {
+        width: 30rem;
+
+        .las {
+            font-size: 2.5rem;
+            color: $color-1;
+            padding-right: .2rem;
+        }
+
+       h4 {
+        font-size: 1.1rem !important;
+       }
+
+       p {
+        padding-top: .2rem !important;
+        font-size: 1rem !important;
+       }
+    }
+}
+.info_icon {
+
+    .contact_item_icon {
+
+        a {
+            width: 3rem;
+            height: 3rem;
+
+            .lab {
+                font-size: 2rem !important;
+            }
+        }
+    }
+}
+
+}
+@media only screen and (max-width: 1025px){
+    #single_product_container {
+        .product_gallery_with_dist {
+            .image_gallery {
+                #imageBox {
+                    width: 43rem;
+                    height: 43rem;
+                }
+                .product_small_image {
+                    .img_div {
+                        height: 5.7rem;
+                    }
+                }
+            }
+            .product_dist {
+                width: 65%;
+                padding-left: 2rem;
+
+                .product_title_with_qr {
+                    .porduct_title {
+                        h2 {
+                            font-size: 2rem;
+                        }
+                        .product_dist_box {
+                            p {
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+        .related_product {
+            .related_product_slider {
+                .product_card {
+                    width: 27rem;
+                    height: 30.2rem;
+
+                    a {
+                        img {
+                            height: 21.5rem;
+                        }
+                    }
+                }
+            }
+        }
+        .dist_box .box_body {
+            #content_first {
+                .features_box {
+                    .product_gell {
+                        img {
+                            height: 38.8rem;
+                        }
+                    }
+                }
+            }
+            #content_scnd {
+                img {
+                    height: 53rem;
+                    margin: 5rem;
+                }
+            }
+        }
+    }
+
+    // logo here
+    .logo {
+        left: 7%;
+        img {
+            height: 5rem;
+        }
+    }
+    .single_product_brand {
+        left: 0%;
+    }
+    // Customheader here
+    .custom_title {
+        padding-top: 7rem;
+
+
+        h2 {
+            font-size: 4rem;
+        }
+    }
+    // END Customheader here
+
+
+    // Benar responsive here
+.benar_slider {
+
+
+    .benar_box{
+
+        .benar_text {
+            height: 16rem !important;
+
+
+            h2 {
+                font-size: 3rem !important;
+            }
+        }
+
+        .benar_img {
+            width: 40%;
+
+            img {
+                width: 32rem;
+                height: 40rem;
+            }
+        }
+
+    }
+
+}
+
+
+    // About section Responsive Here
+
+
+
+    // SErvices responsive Start here
+    .blog_box {
+        width: 80%;
+        margin: 5rem auto 0;
+        gap: 3rem;
+    }
+
+    // END Services
+
+    //  Contact Start Here
+
+    .contact_box {
+        width: 90%;
+        margin: 5rem auto 0;
+
+
+
+        .left_text_box {
+            width: 45%;
+        }
+
+
+
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    #single_product_container {
+        width: 91%;
+        .product_gallery_with_dist {
+            flex-wrap: wrap;
+            .image_gallery {
+                width: 100%;
+
+                #imageBox {
+                    width: 55rem;
+                    height: 55rem;
+                }
+                .product_small_image {
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+        .product_dist {
+            width: 100% !important;
+            padding-left: 0rem !important;
+        }
+        .dist_box .box_body {
+            #content_first {
+                .features_box {
+                    .product_gell {
+                        img {
+                            height: 29.8rem;
+                        }
+                    }
+                }
+            }
+            #content_scnd {
+                img {
+                    height: 40.8rem;
+                }
+            }
+        }
+        .related_product {
+            .related_product_slider {
+                .owl-nav {
+                    .owl-prev {
+                        left: -2.8rem;
+                    }
+                    .owl-next {
+                        right: -2.8rem;
+                    }
+                }
+            }
+        }
+    }
+    // logo responsive here
+
+    .logo {
+        left: 7%;
+        img {
+            height: 4rem;
+        }
+    }
+    .single_product_brand {
+        left: 0%;
+    }
+    // customheding Here
+    .custom_title {
+        width: 40%;
+
+        h2 {
+            font-size: 3rem;
+        }
+    }
+    // Start Navbar
+    .navbar {
+
+
+        .nav_area{
+            background: $color-1;
+            width: 30rem;
+            height: 37rem;
+            transform: translateY(45rem);
+            transition: .4s linear;
+            flex-direction: column;
+            justify-content: start;
+            padding-top: 0;
+            z-index: 9999;
+            border-top-right-radius: 7px;
+
+            li {
+                width: 100%;
+                border-bottom: 1px dotted $border;
+                padding: 0rem 2rem;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                a {
+
+                    font-size: 1.4rem;
+                    display: block;
+                    width: 100%;
+                    color: #f0f0f0;
+                    padding: 1.2rem 0;
+                    transition: .5s;
+
+
+
+                    &:hover {
+                        background-color: $color-3;
+                    }
+
+
+                    .nav_icon{
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+        .nav_area.nav_area.nav_area_open  {
+            transform: translateY(0rem);
+
+            .bars_tow {
+                display: block;
+                width: 100%;
+                height: 4.5rem;
+                padding: 1rem;
+                text-align: end;
+
+                &::before {
+                    content: '\f103';
+                }
+            }
+        }
+        .copy_right_msg {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: end;
+            display: block;
+            padding: 1rem;
+            padding-right: 2rem;
+
+            .msg_area {
+                display: inline-block;
+            }
+        }
+        .bars {
+            width: 7rem;
+            height: 6rem;
+            background-color: $color-1;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 900;
+            font-size: 3rem;
+            color: #fff;
+            left: 0;
+            bottom: 0;
+            padding: .9rem;
+            padding-left: 2rem;
+
+            &::before {
+                content: '\f0c9';
+                font-family: 'Line Awesome Free';
+            }
+        }
+        .bars.bars_xmark {
+            display: none;
+        }
+    }
+        // navigation END Here
+
+
+    // Benar Here
+    .benar_slider {
+
+        .owl-nav {
+
+            .owl-prev {
+                width: 3.5rem !important;
+                height: 3.5rem !important;
+
+                span {
+                    font-size: 3rem !important;
+                    padding-bottom: .5rem !important;
+                }
+            }
+
+            .owl-next {
+                width: 3.5rem !important;
+                height: 3.5rem !important;
+
+                span {
+                    font-size: 3rem !important;
+                    padding-bottom: .5rem !important;
+                }
+            }
+        }
+
+        .benar_box {
+            display: flex;
+            flex-direction: column-reverse !important;
+
+            .benar_img {
+                width: 62%;
+                height: 52%;
+                margin-top: 8rem;
+                padding-left: 8rem;
+                text-align: center !important;
+                img {
+                    width: 30rem !important;
+                    height: 37rem !important;
+                }
+            }
+
+            .benar_text {
+                width: 70%;
+                height: 15rem !important;
+                top: 70%;
+                left: 15%;
+                h2 {
+                    font-size: 2.5rem !important;
+                }
+
+            }
+        }
+
+    }
+// SERVICES RESPONSIVE HERE
+
+.services_box {
+    margin: 2rem auto 0;
+    gap: 2rem;
+
+    .services_items  {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+// ABOUT OF Here
+.about_box {
+    width: 90%;
+    flex-direction: column;
+    margin: 0rem auto 0;
+    .about_left {
+        width: 100% !important;
+        display: flex;
+
+        .text_about {
+            width: 70%;
+
+            .pera_fist {
+                width: 100%;
+                padding-bottom: 0rem;
+
+            }
+
+            .pera_secend {
+                width: 100%;
+            }
+
+        }
+
+        img {
+            width: 40%;
+            height: 25rem;
+            padding-left: .5rem;
+        }
+    }
+
+    .about_right {
+        width: 90%;
+        margin-bottom: 5rem;
+        .about_table>tbody>tr>td {
+            padding: 0;
+        }
+    }
+}
+    // SERVICES Responsive Here
+    .services_box {
+        width: 85%;
+        flex-wrap: wrap;
+
+    }
+
+    // PRODUCTS Responsive Here
+.blog_box {
+    margin: 2rem auto 0;
+    gap: 1rem;
+    .blog_items {
+        width: 26rem;
+    }
+
+}
+
+    // Contact here
+
+    .contact_box  {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin:2rem auto 0;
+        gap: 2rem;
+        .left_text_box {
+            width: 82%;
+            height: 20rem;
+            padding-left: 2rem;
+
+
+        }
+
+        .right_form_box {
+            width: 80%;
+
+        }
+    }
+
+    .info_box  {
+        padding: 1.2rem 0rem 1.2rem !important;
+        gap: .5rem;
+
+        .contact_item {
+            width: 22rem !important;
+
+            .las {
+                font-size: 2rem;
+            }
+
+            .contact_info {
+
+                h4 {
+                    font-size: .9rem !important;
+                }
+                p {
+                    font-size: .9rem !important;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    .container_box {
+        width: 87.5%;
+    }
+    #single_product_container {
+        width: 100%;
+        margin: 6rem auto;
+        .product_gallery_with_dist {
+            .image_gallery {
+                #imageBox {
+                    width: 38rem;
+                    height: 43rem;
+                }
+            }
+            .product_dist {
+                .product_title_with_qr {
+                    padding: 2.5rem;
+                }
+            }
+        }
+        .dist_box {
+            .box_body {
+                #content_first {
+                    padding: 2rem !important;
+
+                    .features_box {
+                        .product_gell {
+                            img {
+                                height: 13.8rem !important;
+                            }
+                        }
+                        .dtls_table {
+                            overflow-x: scroll;
+                        }
+                    }
+                }
+                #content_scnd {
+                    img {
+                        height: 24.5rem;
+                    }
+                }
+                #content_scnd.show {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+        .next_prev {
+            flex-wrap: wrap;
+            gap: 2rem;
+
+            button {
+                font-size: 1.2222222222rem;
+            }
+        }
+        .related_menu {
+            .related_menu_bar {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: start;
+
+                .related_menu_item {
+                    padding: 1.5rem;
+                }
+            }
+        }
+        .related_product {
+            .related_product_slider {
+                .owl-nav {
+                    .owl-prev {
+                        left: -1.5rem;
+                    }
+                    .owl-next {
+                        right: -1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    // Customheader here
+    .custom_title {
+            width: 100%;
+    }
+
+    // logo responsive here
+    .logo {
+        position: absolute;
+        left: 7%;
+        img {
+            height: 3rem;
+        }
+    }
+    .single_product_brand {
+        left: 0%;
+    }
+    .navbar {
+        .nav_area {
+            width: 23rem;
+        }
+    }
+    .benar_box {
+       .benar_img {
+           width: 90% !important;
+           justify-content: center !important;
+           padding-left: 0 !important;
+        }
+        .benar_text {
+           width: 90% !important;
+            h2 {
+                font-size: 2rem !important;
+                font-weight: 600 !important;
+            }
+        }
+    }
+// SERVICES RESPONSIVE HERE
+.services_box {
+    margin-bottom: 8rem;
+}
+
+// PRODUCTS Responsive Here
+.blog_box {
+    margin-bottom: 8rem;
+}
+
+
+    .about_box {
+        margin-bottom: 5rem;
+        .about_left {
+           flex-direction: column;
+            .text_about {
+               width: 100%;
+            }
+            img {
+                width: 100%;
+                text-align: center;
+                padding-bottom: 2rem;
+            }
+        }
+        .about_right {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    // PRODUCTS Responsive Here
+    .blog_box {
+        .blog_items {
+            width: 33rem;
+            height: 31rem;
+        }
+        .text_item {
+            h3 {
+                font-size: 2rem !important;
+            }
+        }
+    }
+
+    // Contact Responsive Here
+    .contact_box {
+        .left_text_box {
+            width: 100%;
+            padding: 0;
+            p {
+                width: 100% !important;
+            }
+        }
+        .right_form_box {
+            width: 100%;
+            padding: 2rem 2rem;
+            .form_group {
+                gap: 1rem;
+            }
+        }
+    }
+
+    .info_box {
+        flex-direction: column !important;
+    }
+
+    .info_icon {
+        margin-bottom: 10rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #single_product_container {
+        .product_gallery_with_dist {
+            .image_gallery {
+                #imageBox {
+                    width: 34rem;
+                    height: 38rem;
+                }
+            }
+            .product_dist {
+                .product_title_with_qr {
+                    .porduct_title {
+                        h2 {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .dist_box {
+            .box_head {
+                ul {
+                    li {
+                        width: 100%;
+                    }
+                }
+            }
+            .box_body {
+                #content_scnd {
+                    img {
+                        height: 21.5rem;
+                    }
+                }
+                #content_scnd.show {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+        }
+        .next_prev {
+            button {
+                font-size: 1.11111111rem;
+                padding: 1.1rem;
+            }
+        }
+    }
+    .navbar {
+        .nav_area {
+            width: 20rem;
+        }
+    }
+}

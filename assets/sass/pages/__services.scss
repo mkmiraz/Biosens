@@ -1,0 +1,91 @@
+.services_box {    
+    width: 80%;
+    margin: 10rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+
+    .services_items {
+        border-radius: .5rem;
+        position: relative;
+        width: 35rem;
+        height: 35rem;
+        text-align: center;
+        background-color: $color-1;
+        transition: .5s;
+
+        &:hover {
+            box-shadow: #247de4 5px 5px, #247ee4b9 10px 10px, #247ee48a 15px 15px, #4892e759 20px 20px, #1a508d23 25px 25px;
+        }
+
+        .item_img {
+            margin-bottom: 2rem;
+
+            img{
+                width: 80%;
+                height: 16rem;
+                border: 12px solid #fff;
+                border-top: none;
+                border-bottom-left-radius: .5rem;
+                border-bottom-right-radius: .5rem;
+                transition: .5s;
+            }
+
+        }
+       
+        
+
+        .item_text {
+            padding: 2rem;
+
+            h2 {
+                color: rgb(245, 243, 243);
+                font-size: 2.5rem;
+                letter-spacing: .2rem;
+                width: 60%;
+                margin: 0 auto;
+                font-family: AnekTelugu;
+                font-weight: 600;
+                position: relative;
+                background-color: $color-1;
+                
+                &::before {
+                    content: "";
+                    position: absolute;
+                    border-top: 4px solid  #fff;
+                    border-right: 4px solid  #fff;
+                    width: 3rem;
+                    height: 2rem;                    
+                    right: .2rem;
+                    top: -1rem;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    border-bottom: 3px solid  #fff;
+                    border-left: 3px solid  #fff;
+                    width: 3rem;
+                    height: 2rem;                    
+                    left: .2rem;
+                    bottom: -.1rem;
+                }
+
+            }
+
+            .sec_title {
+                width: 90%;
+            }
+
+            p {
+                padding-top: 2rem;
+                font-size: 1.4rem;
+                font-family: Roboto;
+                color: rgb(247, 234, 234);
+            }
+        }
+    }
+}
+
